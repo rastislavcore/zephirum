@@ -35,6 +35,39 @@ Please note that some glyphs are composed of multiple glyphs. However, in TTF fo
 
 ## Usage
 
+### Using the CSS file
+
+Define the font family in your CSS file
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/rastislavcore/zephirum/zephirum.css");
+```
+
+or in your HTML file
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rastislavcore/zephirum/zephirum.css">
+```
+
+Usage Example
+
+```css
+code, pre, .monospace {
+  font-family: "zephirum", monospace;
+}
+
+/* Using special PUA characters */
+.open-source-icon::before {
+  font-family: "zephirum";
+  content: "\E0A9";
+}
+
+.bitcoin::before {
+  font-family: "zephirum";
+  content: "\F1B6";
+}
+```
+
 ### Importing the font
 
 ```css
