@@ -1,0 +1,9 @@
+/* zephirum - latin-ext */
+@font-face {
+	font-family: "zephirum";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://cdn.jsdelivr.net/gh/rastislavcore/zephirum/Zephirum-Regular.ttf) format("truetype");
+	unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
