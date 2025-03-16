@@ -1,0 +1,9 @@
+/* zephirum - private use area (PUA) */
+@font-face {
+	font-family: "zephirum";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(https://cdn.jsdelivr.net/gh/rastislavcore/zephirum/Zephirum-Regular.ttf) format("truetype");
+	unicode-range: U+E02F, U+E0A9, U+E227, U+E926, U+EAFA, U+F1B6;
+}

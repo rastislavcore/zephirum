@@ -10,7 +10,7 @@ The font follows the [Google Fonts specification](https://github.com/googlefonts
 
 - `DESCRIPTION.en_us.html` - Font description and details
 - `FONTLOG.txt` - Detailed font history and acknowledgments
-- `zephirum.css` - CSS for web usage
+- `zephirum(*).css` - CSS files for web usage
 - `Zephirum-Regular.glyphs` - Glyphs file
 - `Zephirum-Regular.ttf` - TrueType font file
 - `METADATA.pb` - Font metadata for Google Fonts
