@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "zephirum";
+	src: url(Zephirum-Regular.ttf) format("truetype");
+	font-display: swap;
+}
+
+.zephirum {
+	font-family: "zephirum", monospace;
+}
