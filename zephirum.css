@@ -35,5 +35,5 @@
 	font-weight: 400;
 	font-display: swap;
 	src: url(https://cdn.jsdelivr.net/gh/rastislavcore/zephirum/Zephirum-Regular.ttf) format("truetype");
-	unicode-range: U+E02F, U+E0A9, U+E227, U+E926, U+EAFA, U+F1B6;
+	unicode-range: U+E02F, U+E0A9, U+E0AE, U+E100-E101, U+E227, U+E334-E337, U+E500-E503, U+E926, U+EAFA, U+ECB0, U+F1B6;
 }

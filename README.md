@@ -62,9 +62,9 @@ code, pre, .monospace {
   content: "\E0A9";
 }
 
-.bitcoin::before {
+.satoshi::before {
   font-family: "zephirum";
-  content: "\F1B6";
+  content: "\E500";
 }
 ```
 
