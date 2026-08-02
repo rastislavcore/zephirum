@@ -1,0 +1,9 @@
+/* zephirum - monetary */
+@font-face {
+	font-family: "Zephirum Monetary";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("https://cdn.jsdelivr.net/gh/rastislavcore/zephirum/Zephirum-Regular.ttf") format("truetype");
+	unicode-range: U+0024, U+00A2-00A5, U+0192, U+0E3F, U+20A1-20A6, U+20A9-20AE, U+20B1-20B2, U+20B4-20B5, U+20B8-20BA, U+20BD-20BF, U+10196, U+E500-E503;
+}
