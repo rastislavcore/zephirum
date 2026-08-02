@@ -10,7 +10,7 @@ The font follows the [Google Fonts specification](https://github.com/googlefonts
 
 - `DESCRIPTION.en_us.html` - Font description and details
 - `FONTLOG.txt` - Detailed font history and acknowledgments
-- `zephirum(*).css` - CSS files for web usage
+- `zephirum(*).css` - CSS files for web usage, including the isolated monetary subset
 - `Zephirum-Regular.glyphs` - Glyphs file
 - `Zephirum-Regular.ttf` - TrueType font file
 - `METADATA.pb` - Font metadata for Google Fonts
@@ -65,6 +65,18 @@ code, pre, .monospace {
 .satoshi::before {
   font-family: "zephirum";
   content: "\E500";
+}
+```
+
+To load the supported currency symbols, including the Roman denarius sign
+(`𐆖`, `U+10196`) and monetary PUA glyphs (`U+E500-E503`), import the
+monetary subset:
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/rastislavcore/zephirum/zephirum-monetary.css");
+
+.currency {
+  font-family: "Zephirum Monetary", monospace;
 }
 ```
 

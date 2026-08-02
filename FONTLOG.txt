@@ -24,6 +24,13 @@ To contribute to the project open a PR on GitHub.
 
 ChangeLog
 
+2 Aug 2026 (Rastislav Vašička) Zephirum v1.220
+- Redesigned the Roman denarius sign (U+10196)
+- Added a dedicated monetary webfont subset
+- Included the Roman denarius sign (U+10196) in the regular webfont subset
+- Expanded the monetary subset to all supported currency symbols
+- Included the monetary PUA glyphs U+E500-E503 in the monetary subset
+
 31 Dec 2019 (Rastislav Vašička) Zephirum v1.0
 - Initial release of modernized version
 - Added extended Latin character support
